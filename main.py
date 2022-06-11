@@ -14,8 +14,8 @@ while Running:
     print (f"\nPlayer ({UserChoice}): CPU ({ComputerChoice}).")
 
     if UserChoice == ComputerChoice:
-            print ("Both players picked " + UserChoice + ". It's a draw.\nPlay again.\n")
-            continue
+        print ("Both players picked " + UserChoice + ". It's a draw.\nPlay again.\n")
+        continue
     elif UserChoice == "R":
         if ComputerChoice == "S":
             print ("Rock crushes scissors, YOU WIN. Hippie!")
