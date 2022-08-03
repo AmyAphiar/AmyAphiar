@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"> ABOUT ME</a>
+            <a href="Contact.html">CONTACT </a>
+            <a href="Reg.html">REGISTRATION</a>
+            <a href="Login.html"> LOGIN</a>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <div class="text">
+            <h1>
+                Getting in touch is super easy!!!
+            </h1>
+            <p>
+                I'd love your views/opinions.
+                <br>
+                Talk to me here.
+            </p>
+        </div>
+        <div class="form">
+            <form action="contact-deets">
+                <label for="Name">Name: </label>
+                <input type="text" required>
+                <label for="Email">Email:</label>
+                <input type="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" autocomplete="none" required>
+                <label for="Message">Message:</label>
+                <textarea name="Message" id="" cols="30" rows="17" required></textarea>
+                <input type="submit" class="submit" placeholder="Submit to reach me">
+            </form>
+        </div>
+        <div>
+            
+        </div>
+    </main>
+    <footer>
+        <p><img src="images/copyright-svgrepo-com.svg" alt=""> Copyright 2022  AiMee. All rights reserved.</p>
+    </footer>
+</body>
+</html>

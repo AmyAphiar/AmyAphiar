@@ -1,0 +1,272 @@
+header{
+        align-content: center ;
+        max-width: 100%;
+        padding: 17px;
+        background:rgb(12, 34, 46);
+        margin-top: 0em;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin: auto;
+}
+nav a{
+    font-size:smaller;
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(235, 240, 245);
+}
+nav a:hover{
+    color: rgb(238, 75, 216);
+}
+body{
+    color: aliceblue;
+    font-family: "Open Sans";
+}
+.About-main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+main{
+    background-image: url(Images/Curtain.jpg);
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    padding: 2rem 4rem;
+}
+main img{
+    width: 400px;
+    height: 550px;
+    border: 2rem solid;
+    border-radius: 30%;
+    margin-top: 1rem;
+}
+.Me{
+    font-size: 20px;
+    margin: 3rem 1rem 0rem;
+}
+.amy{
+    color: rgb(112, 56, 165);
+    font-size:75px;
+    font-family:cursive;
+}
+.about{
+    color: rgb(155, 6, 110);
+    margin-top: 0;
+}
+.about-me{
+    font-size: 20px;
+    margin: 1rem 1rem 0rem;
+}
+.hoprisk{
+    font-size: large;
+    margin:1rem 1rem 0rem;
+}
+.hoprisk h2{
+    color: rgb(112, 56, 165);
+}
+ul{
+    padding: 0%;
+    display: flex;
+}
+li{
+    list-style: none;
+    padding-right: 8px;
+    margin-right: 9px;
+    border-right: 2px solid rgb(155, 6, 110);
+}
+button{
+    padding: 2rem;
+    background-color: rgb(81, 81, 129);
+    color: rgb(228, 165, 186);
+    border: 8px solid rgb(238, 202, 214);
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: large;
+    float: right;
+    margin: -2rem;
+}
+button:hover{
+    background-color: transparent;
+}
+footer{
+    background-color: hsl(192, 82%, 13%);
+    max-width: 100%;
+    padding: .1rem;
+    text-align: center;
+    font-size: small;
+}
+footer img{
+    width:10px;
+    height:10px;
+}
+.contact-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+.contact-main .text{
+    padding: 5rem;
+    width: 50%;
+}
+.contact-main .text p{
+    font-size:x-large;
+}
+.contact-main .form{
+    width:50%;
+    margin-left: 4rem;
+    padding:3rem 0rem;
+}
+form{
+    background-color: rgb(80, 9, 73);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow:  0 7px 2px rgba(0, 0, 0, 0.204);
+    transition: 400ms;
+}
+form input{
+padding: 1rem;
+margin-bottom: 1rem;
+border: none;
+border-radius: 1rem;
+}
+form textarea{
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+form .submit{
+    background-color: rgb(81, 81, 129);
+    color: rgb(228, 165, 186);
+    cursor: pointer;
+    font-size: large;
+    }
+@media (max-width:1508px){    
+    .amy{
+        font-size:60px;
+    }
+    .About-main img{
+        width:250px;
+        height: 280px;
+    }
+    button{
+        float:left;
+        margin:-7rem -25rem 0rem ;
+    }
+}
+@media (max-width:1281px){    
+    .amy{
+        font-size:60px;
+    }
+    .About-main img{
+        width:250px;
+        height: 280px;
+    }
+    button{
+        float:left;
+        margin:-7rem -20rem 0rem ;
+    }
+}
+@media (max-width:1133px){    
+    .amy{
+        font-size:60px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        margin: auto;
+    }
+    .About-main img{
+        width:250px;
+        height: 280px;
+    }
+
+    .contact-main .text{
+        padding: 1rem;
+    }
+    .contact-main .text h1{
+       font-size: 1.5rem;
+    }
+    .contact-main .text p{
+        font-size: 1.3rem;
+     }
+    .contact-main .form{
+        margin-left: 0rem;
+        padding:1rem 0rem;
+    }
+@media (max-width:1003px){
+    nav{
+        width: 100%;
+        margin: auto;
+    }        
+    .About-main {
+        padding: 2rem;
+    }
+    .about{
+        font-size: large;
+    }
+    .about-me{
+        margin-top: 2rem;
+    }
+}
+@media (max-width:969px){   
+    .amy{
+        font-size: 55px;
+    }
+    .about{
+        font-size:medium;
+    }
+    .about-me{
+        margin-top: 2rem;
+    }
+}
+@media (max-width:944px){  
+    body{
+        height: auto;
+    } 
+    .About-main{
+        display: flex;
+        flex-direction: column;
+        padding: 4rem;
+        height: auto;
+        text-align: center;
+    }
+    li{
+        align-content: center;
+        margin: auto;
+    }
+    button{
+        float:right;
+        margin: 1rem 0rem -1rem;
+    }
+}
+@media (max-width:820px){  
+    .About-main{
+        padding: 1rem;
+    }
+    .contact-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-main .text{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-main .form{
+        width: 100%;
+    }
+}
+@media (max-width:478px){  
+    .About-main{
+        padding: 0rem;
+    }
+    button{
+        padding: .7rem;
+        margin: 1rem 0rem ;
+    }
+}
